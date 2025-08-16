@@ -15,9 +15,8 @@ This project is designed to demonstrate front-end web development skills includi
 ---
 
 ## 🎥 Demo
-*(Add hosted link or screenshot when available)*  
-For now, open `index.html` directly in your browser to test locally.  
-
+ 
+ 
 ---
 
 ## 🛠 Tech Stack
@@ -34,7 +33,7 @@ For now, open `index.html` directly in your browser to test locally.
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/quiz-joke-app.git
+git clone (https://github.com/harinigaraga/apextask-3.git)
 cd quiz-joke-app
 
 ### 2. Run the project
