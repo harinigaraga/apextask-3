@@ -1,0 +1,99 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fbfd;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Containers */
+.quiz-container, .api-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+select, button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button Colors */
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.api-container button {
+  background-color: #27ae60;
+}
+
+.api-container button:hover {
+  background-color: #1e8449;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f4f6f8;
+  border: 1px solid #dfe6e9;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #34495e;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#joke {
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .quiz-container, .api-container {
+    padding: 20px;
+  }
+}

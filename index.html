@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domain-Based Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>🧠 Interactive Quiz</h1>
+
+    
+    <select id="domainSelect">
+      <option value="">-- Choose Domain --</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="js">JavaScript</option>
+    </select>
+
+    <button id="startQuiz">Start Quiz</button>
+
+    <div id="quizSection" style="display:none;">
+      <div id="quiz"></div>
+      <button id="submit">Submit Quiz</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <div class="api-container">
+    <h2>😂 Random Joke Generator</h2>
+    <button id="getJoke">Get a Joke</button>
+    <div id="joke"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
